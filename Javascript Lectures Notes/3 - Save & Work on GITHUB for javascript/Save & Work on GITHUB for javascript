@@ -1,0 +1,47 @@
+Code Execution in Github codespace we make portfolio
+
+*NOTE :- git is not only for a portfolio website use.
+
+Git Code Environment using node.js or javascript -
+1] - Make new Repository
+2] - Codespaces --> Create codespace in main
+
+
+*NOTE :-
+- Behind the scenes while codespace running - start computer or instance for your work.
+
+
+Git uses as a onilne environment & Steps to create node.js environment -
+1] File --> view --> command palatte
+2] Command palatte search --> container
+3] After show container --> click Codespaces: Add dev Container Configuration files..
+   - as your choice add file of configuration in your computer instance e.g. node.js, python.. 
+4] Search "node" in command palatte & click on --> show all defination
+5] Select "node.js & javascript".(default version)
+6] Rebuild it.
+
+
+Q. - How to create test file & execute through node.js?
+=>
+  - Create folder e.g. 01_basics
+  - create file e.g. test.js 
+  - open terminal & run --> node 01_basics/test.js (file available in folder to "/")
+
+
+Q. - In repository no any file available or update after codespace work done, How to save it in repository?
+=> 
+Step 1 - for File Save
+  - Go to source control icon (leftside)
+    - Source control track the files which have you can changed.
+  - Click "+" you can change & which are you have save.
+  - Before commit write message e.g. - Container config done
+  - Click Commit
+Step 2 - for File Save
+  - Click on 3 dots & push
+  - Before Push we grant for which save are told in step 1.
+  - Click Push
+  
+
+Close machine (codespace) - 
+- Action --> codespace --> Delete All running
+
