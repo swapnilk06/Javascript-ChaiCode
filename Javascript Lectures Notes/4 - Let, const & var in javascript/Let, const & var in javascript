@@ -1,1 +1,161 @@
+let, const & var in Javascript -
 
+Q. - Why you can learn javascript?
+=>  Js goal is that we will make product or build anything through JS.
+ 
+- Criteria through create:
+  1) Invite a user to the website
+  2) User can fill registration form 
+  3) In registration form get unique id for user (find out easily in database whenever user).
+
+Storage - For store anything we required memory space.
+        - In programming all work are store/retrieve info & optimize storing information.
+
+
+Variables & Constants - 
+
+*NOTE :-
+Constants - Can't change after declare it.
+Variables - Can change when required.
+
+Q. - How to learn through Investigation of Document?
+
+Declaration of Constant - 
+e.g. -> const accountId = _ _ _
+
+*NOTE :- When write variable name declaration it write in simple name(of variable), that easy to read by anyone.
+
+*Shortcuts -
+  - Comment "//" --> Ctrl+/
+  - console.log(); --> log+Enter
+  
+
+Learn through Investigation - 
+
+E.g. -
+    const accountId = 144553
+	let accountEmail = "swap@gmail.com"
+	var accountPassword = "12345"
+	accountCity = "Pune" // Its not proper way of declaration
+
+
+const, let, var --> Javascript node.js, V8.. define its syntax assign it in memory.
+E.g. - memory name give accountId & assign value 144553
+
+const -
+   - const means doesnot change its value after assign (value is locked not to be change).
+   - you can also write it show as below, but node.js doesnot permission to change const value after assign.
+
+E.g. - Can try to change constant accountId?
+=> 
+	const accountId = 144553
+	let accountEmail = "swap@gmail.com"
+	var accountPassword = "12345"
+	accountCity = "Pune" // Its not proper way of declaration
+
+	// Try to change const // not allowed
+	accountId = 2
+	console.log(accountId);
+  
+Error - TypeError: Assignment to constant variable.
+
+- Node.js can identify const assign value & show error.
+
+
+Q. - can try to change accountEmail, accountPassword, accountCity values?
+=>
+	const accountId = 144553
+	let accountEmail = "swap@gmail.com"
+	var accountPassword = "12345"
+	accountCity = "Pune" // Its not proper way of declaration
+	
+	// Try to change
+	accountEmail = "swapin.com"
+	accountPassword = "323212"
+	accountCity = "Nashik"
+
+
+2 ways of Print statement using console methods - 
+
+1] Simple method -
+
+    console.log(accountId);
+=>
+  144553
+
+2] console another method for print -
+
+E.g. - write all printing variable name in square bracket [ , ] with include comma.
+   
+   console.table([accountId, accountEmail, accountPassword, accountCity])   
+
+
+RUN Code - 
+terminal --> node 01_basics/01_variable.js
+=>
+┌─────────┬──────────────────┐
+│ (index) │      Values      │
+├─────────┼──────────────────┤
+│    0    │      144553      │
+│    1    │ 'swap@gmail.com' │
+│    2    │     '323212'     │
+│    3    │     'Nashik'     │
+└─────────┴──────────────────┘
+
+
+Q. - Difference between let & var?
+=>
+  - In javascript declare constant that have only one method - e.g. const accountId = _ _ _
+  
+  - IN javascript declare variable are 2 ways -
+  1] let 
+        - In "let" scope problem have remove remove from it.
+        - Currently use "const" & "let" only in Javascript for declaration of variable.
+  
+  2] var 
+		- Currently "var" can't used.
+        - Intial time of JS some small problem with JS - Its has not knowledge of "scope" i.e. "{ }"
+		- Intial days javascript have scope problem.
+		- Issue in block scope & functional scope.
+
+
+Comment In Javascript -
+1] //
+2] /* _ _ _ */
+
+
+Another way of variable declaration -
+1) E.g. - 
+	accountCity = "Pune" // Its possible to declare variable but, Its not proper way of declaration
+
+Undefined variable declaration in javascript -
+2) E.g. -
+	const accountId = 144553
+	let accountEmail = "swap@gmail.com"
+	var accountPassword = "12345"
+	accountCity = "Pune" // Its possible to declare variable but, Its not proper way of declaration
+	let accountState;
+	
+	// change value
+	accountEmail = "swapin.com"
+	accountPassword = "323212"
+	accountCity = "Nashik"
+
+	
+	console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+
+=>
+┌─────────┬──────────────┐
+│ (index) │    Values    │
+├─────────┼──────────────┤
+│    0    │    144553    │
+│    1    │ 'swapin.com' │
+│    2    │   '323212'   │
+│    3    │   'Nashik'   │
+│    4    │  undefined   │
+└─────────┴──────────────┘
+
+
+Semicolon in Javascript -
+
+*NOTE :- Write ";" is not matter write or not.
