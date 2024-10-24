@@ -1,0 +1,91 @@
+- Intial of JS & current Js have different
+  - Old JS have not classes, module, arrow fun.. etc are available at time.
+- Most of code in JS are written as old time JS, JS community/organisation didn't want to old code get spoiled after new code using.
+- When use new code gives standards for treat as all are new code because, all code run through engine.
+
+- In Js --> "use strict"; // treat all JS code as newer (version)JS
+- In current JS all are written in new standard automatically run strict mdr through current standard.
+
+
+alert statement - 
+alert( 3 + 3) // we are using nodejs, not browser
+
+Which time to use spacing -
+console.log(3 + 3); console.log("Hitesh") // Code Readability is Important not code Output
+
+
+*NOTE :- When using React, node.. avoide to written semicolon(;)
+       - Imp in code as "Readability"
+
+
+==============
+*DOCUMENTATION
+
+1] Mozilla org. - mdn --> https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
+
+2] ECMA script - Orignal Doc --> https://tc39.es/
+==============
+
+ECMA Script - 
+ - Starting date of JS, all have different standards - Different browser have different standards.
+ - After time define ECMA script organisation to write standards not a JS.
+ - All for browser or engines.
+ 
+
+Data types -
+
+- Js have minimum datatypes
+
+
+Vs code configure in git -
+In terminal -
+git config --global user.name "Swapnil Kathale"
+git config --global user.email "swapnilkathale111@gmail.com"
+
+Repository remote configured to push to -
+git remote add origin https://github.com/swapnilk06/Javascript-chai-aur-js
+git remote -v
+
+
+
+E.g. -
+
+"use strict"; // treat all JS code as newer (version)JS
+
+// alert("hello") // we are using nodejs, not browser
+
+// console.log(3 + 3); console.log("Hitesh") // Code Readability is Important
+
+console.log(3 
+      + 
+      3) // code readability should be high
+console.log("Hitesh")
+
+// data types -
+
+let name = "swapnil" // string
+let age = 18 // number
+let isLoggedIn = false // boolean
+let state; // undefined
+let temperature = null // null id empty - temperature is not coming. 
+
+// number => 2 to power of 53 i.e. range
+// bigint => used in treading, stockmarket, facebook.. bigint big websites
+// string => ""
+// boolean => true/false
+// null => standalone value - null is type
+      // null is representation of Empty value
+      // server empty temperature serve not as "zero" its serve perfer null as empty or not any value - zero is a value better as use null.
+// undefined => variable declare but value is not assigned.
+// symbol => unique - mostly used in React - find uniquness used symbol - Figma tools use mostly symbols
+
+
+
+// object
+
+console.log(typeof "swapnil"); // type as string
+console.log(typeof null); // Error in JS - type show as object
+console.log(typeof undefined); // type undefined 
+
+// all datatype have shows special type like string,number,undefined.., but null show object 
+
