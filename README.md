@@ -6,8 +6,8 @@ Chai Aur Javascript 52 lessons
 
 -----
 
-`[0-0-2]`
+`[05-10-24]`
 
-### 1] - Intro to Javascript
+### 1] - Javascript for Beginners
 
-### 2] - Variables in Javascript 
+### 2] - Setting up environment in local machine for Javscript
