@@ -21,9 +21,9 @@ Javascript 52 Lessons
 <br>
 
 -----------------
+<br>
 
-
-## 2] Setting up local environmentin local machine for Javascript
+## 2] Setting up local environment in local machine for Javascript
 <br>
 
 > [!NOTE]
@@ -39,55 +39,60 @@ Javascript 52 Lessons
 <br>
 
 
-
-
-
-
-### `.txt` VS `.js`
-- No most difference in these 2 files .txt & .js files
-But in .js file text are not random (it inwith special meaning with syntax)
-E.g. -
+### `.txt` & `.js`
+- No most one difference in these 2 files .txt & .js
+- But in `.js` file texts are not random ( in that file special meaning with syntax)
+- E.g.
+``` Js
    console.log("Swapnil")
-	
-.txt & .js files difference -
-   - .txt file & .js files difference is - which file can injection in S/W & execute it.
-   - S/W like compiler, Interpreter...
+```
 
+- .txt file & .js files difference is - which file can injection in S/W & execute it.
+- S/W like compiler, Interpreter...
 
-*NOTE :- All over S/W's has own Syntax Strucutre Capability. 
-       - When you write console ---> its allready define. i.e. .js, .py
-	     - After except looking of main, console what next?..
-	     - from console syntax, give you any input or process any data & what can you show in output?
-	     - All above work done in S/W you called Compiler OR sometime called Interpreter.
+> [!NOTE]
+> - All over S/W's has own Syntax Structure Capability. 
+> - When we write on console -> its allready define. i.e. .js, .py,..
 
+#### Q. After except looking of main, console what next?..
+- from console syntax, give we any input or process any data & what can you show in output?
+- All above work done in S/W you called `Compiler` OR sometime called `Interpreter`.
+<br>
 
-Javascript & S/W -
-    - Few years ago S/W are only available for browser.
-		- Also many year ago S/W are not easily available. Most no. of process for configure it, setup are required long process.
-		- S/W is a attached with only in browser(firefox or chrome) steps in browser are write index.html & script because S/W are attached with browser only. 
-		- Recent days, move S/W from browser to standalone execution.
-		   
-After standalone execution working -
-    - Javascript is not only for Browser language OR Frontend language.
-	  - It also used in Backend, Mobile or used in everywhere etc...
+### Javascript & S/W
+- Few years ago, S/W are only available for browser.
+- Also that time S/W are not easily available becz, they have most no. of process for configure it, setup are required long process.
+- S/W is a attached with only in browser (firefox or chrome) steps in browser are write index.html & script because S/W are attached with browser only. 
+- Recent days, S/W move from browser to `standalone execution`.
+- After standalone execution working -
+  - Javascript is not only for Browser language OR Frontend language.
+  - It also used in Backend, Mobile or used in everywhere etc...
+<br>
 
+### Setup JS Environment
+- Node JS Environment -> `S/W for execute Javascript`
+- Environment useful -
+  - Without making in a browser index file
+  - Without inspect mode console 
+<br>
 
-Setup JS Environment -
+> [!NOTE] 
+> - `Node JS` & `Deno Js` are S/W or library have same & also same founder -> Ryan Dahl (Main lead founder)
+> - For `Production grade environment` -> Choose LTS
+> - Code Writing Tool - VS Code (Code Editor)
+<br>
 
-Node JS Environment --> S/W for execute Javascript
-Env useful
-  - without making in a browser index file
-  - without inspect mode console 
+### JS file Execution
+- Open terminal -
+  - -> `node -v`  (check for version)
+  - -> `node test.js` (then execute it)
+<br>
 
-*NOTE :- Node JS & Deno Js are S/W or library have same & same founder --> Ryan Dahl (Mean lead founder)
-       - For production grade Env -> Choose LTS
-
-Code Writing Tool - Vs Code (Code Editor)
-
-
-JS file Execution -
-
-Open terminal --> node -v <== check version
-              --> node test.js <== execute
-			  
 Other simple way of execution for making portfolio in browser work are in next.
+<br>
+
+-----------------
+<br>
+
+## 3] Save and work on Github for Javascript
+<br>
